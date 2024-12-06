@@ -4,11 +4,13 @@ const app = express();
 const port = process.env.PORT || 8000
 
 app.get("/", (req, res) => {
-  res.send("Hello, World!");
+  res.send("<h1 style='display: flex; justify-content: center;'>oii ! i love you </h1>"
+   
+  );
 });
 
 app.get("/test", (req, res) => {
-  res.send("Sending all data");
+  res.send("<h1 style='display: flex; justify-content: center;'>Chalti hai kya 9 sa 12 </h1>");
 });
 
 app.get("/login", (req, res) => {
